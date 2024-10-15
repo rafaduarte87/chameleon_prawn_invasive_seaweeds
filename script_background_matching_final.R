@@ -70,7 +70,7 @@ graph_colour_space_b <-
     labels = seq(-0.5, 4.5, by = 1),
     limits = c(-0.5, 4.5)) +
   scale_y_continuous(
-    name = "Blue - Yellow [sw:(lw+mw)]",
+    name = "Yellow - Blue [(lw+mw):sw]",
     breaks = seq(-22.5, 2.5, by = 5),
     labels = seq(-22.5, 2.5, by = 5),
     limits = c(-22.5, 2.5)) +
