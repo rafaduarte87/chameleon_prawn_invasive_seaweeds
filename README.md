@@ -1,4 +1,4 @@
-# Codes and data for the manuscript "Adaptation in the Anthropocene: how behavioural choice and colour change enables chameleon prawns to camouflage on non-native seaweeds" published in the Journal of Animal Ecology.
+# Codes and data of the manuscript "Adaptation in the Anthropocene: how behavioural choice and colour change enables chameleon prawns to camouflage on non-native seaweeds" published in the Journal of Animal Ecology.
 
 **Authors**: Rafael Campos Duarte; Beks Ryan; Gustavo Muniz Dias; and Martin Stevens
 
