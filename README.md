@@ -53,23 +53,23 @@ This dataset describes the luminance, colour and saturation using the RNL chroma
 
 **Column names and description**:
 
-image: the code used to identify each photograph
-seaweed: either the seaweed itself or the seaweed where the prawn was sampled (sm for brown wireweed and hw for pink harpoon weed or brown)
-id: the identification code of each individual
-date: the date of prawn sampling (NA for the seaweeds)
-size: the size of the prawn individual (NA for the seaweeds)
-type: either seaweed or prawn 
-lum_mean: the mean value of the luminance measured from all ROI (region of interest) pixels
-lum_dev: the standard deviation of the luminance measured from all ROI pixels
-rnl_x_mean: the mean value of the x colour channel (green-red variation) measured from all ROI pixels
-rnl_x_dev: the standard deviation of the x colour channel (green-red variation) measured from all ROI pixels
-rnl_y_mean: the mean value of the y colour channel (yellow-blue variation) measured from all ROI pixels
-rnl_y_dev: the standard deviation of the y colour channel (yellow-blue variation) measured from all ROI pixels
-rnl_saturation_mean: the mean value of the saturation channel measured from all ROI pixels
-rnl_saturation_dev: the standard deviation of the saturation channel measured from all ROI pixels
-L: the values of Lightness from the L*a*b colour space
-A: the values of the green-red colour component from the L*a*b colour space
-B: the values of the yellow-blue colour component from the L*a*b colour space
+* image: the code used to identify each photograph
+* seaweed: either the seaweed itself or the seaweed where the prawn was sampled (sm for brown wireweed and hw for pink harpoon weed or brown)
+* id: the identification code of each individual
+* date: the date of prawn sampling (NA for the seaweeds)
+* size: the size of the prawn individual (NA for the seaweeds)
+* type: either seaweed or prawn 
+* lum_mean: the mean value of the luminance measured from all ROI (region of interest) pixels
+* lum_dev: the standard deviation of the luminance measured from all ROI pixels
+* rnl_x_mean: the mean value of the x colour channel (green-red variation) measured from all ROI pixels
+* rnl_x_dev: the standard deviation of the x colour channel (green-red variation) measured from all ROI pixels
+* rnl_y_mean: the mean value of the y colour channel (yellow-blue variation) measured from all ROI pixels
+* rnl_y_dev: the standard deviation of the y colour channel (yellow-blue variation) measured from all ROI pixels
+* rnl_saturation_mean: the mean value of the saturation channel measured from all ROI pixels
+* rnl_saturation_dev: the standard deviation of the saturation channel measured from all ROI pixels
+* L: the values of Lightness from the L*a*b colour space
+* A: the values of the green-red colour component from the L*a*b colour space
+* B: the values of the yellow-blue colour component from the L*a*b colour space
 
 * #### behavioural_choices_dataset.xlsx 
 
@@ -77,12 +77,12 @@ This dataset describes the choice of chameleon prawns (*Hippolyte varians*) betw
 
 **Column names and description**:
 
-type: the colour of the prawn (green - g or red - r)
-comparison: the comparison between the seaweeds made in the trial (red dulse - d, pink harpoon weed - hw, green sea lettuce - sl, brown wireweed - sm)
-non_native: the non-native seaweed species (hw or sm)
-native_match: the colour match between the prawn and the native seaweed offered in the trial (match - 1 or mismatch - 0) 
-fist_choice: the initial seaweed choice made by the prawn (d, sl, hw or sm)
-ten_minutes: the seaweed chosen by the prawn after 10 minutes (d, sl, hw or sm)
+* type: the colour of the prawn (green - g or red - r)
+* comparison: the comparison between the seaweeds made in the trial (red dulse - d, pink harpoon weed - hw, green sea lettuce - sl, brown wireweed - sm)
+* non_native: the non-native seaweed species (hw or sm)
+* native_match: the colour match between the prawn and the native seaweed offered in the trial (match - 1 or mismatch - 0) 
+* fist_choice: the initial seaweed choice made by the prawn (d, sl, hw or sm)
+* ten_minutes: the seaweed chosen by the prawn after 10 minutes (d, sl, hw or sm)
 
 * #### colour_change_dataset.xlsx
 
@@ -92,36 +92,36 @@ This dataset contains two spreadsheets. The first describes the luminance and co
 
 *prawn_data_rnl*
 
-type: the colour of the prawn (green - g or red - r)
-id: the identification code of each individual
-seaweed: the seaweed species where the prawn was maintained over the experiment (red dulse - d, pink harpoon weed - hw, green sea lettuce - sl, brown wireweed - sm)
-day: the day since the start of the trail when the photograph was taken (0, 5, 10, 15, 20, 25 or 30)
-lum_mean: the mean value of the luminance measured from all ROI (region of interest) pixels
-lum_dev: the standard deviation of the luminance measured from all ROI pixels
-rnl_x_mean: the mean value of the x colour channel (green-red variation) measured from all ROI pixels
-rnl_x_dev: the standard deviation of the x colour channel (green-red variation) measured from all ROI pixels
-rnl_y_mean: the mean value of the y colour channel (yellow-blue variation) measured from all ROI pixels
-rnl_y_dev: the standard deviation of the y colour channel (yellow-blue variation) measured from all ROI pixels
-rnl_saturation_mean: the mean value of the saturation channel measured from all ROI pixels
-rnl_saturation_dev: the standard deviation of the saturation channel measured from all ROI pixels
-LAB_CIE L_Mean: the values of Lightness from the L*a*b colour space
-LAB_CIE A_Mean: the values of the green-red colour component from the L*a*b colour space
-LAB_CIE B_Mean: the values of the yellow-blue colour component from the L*a*b colour space
-size: the size of the prawn individual
+* type: the colour of the prawn (green - g or red - r)
+* id: the identification code of each individual
+* seaweed: the seaweed species where the prawn was maintained over the experiment (red dulse - d, pink harpoon weed - hw, green sea lettuce - sl, brown wireweed - sm)
+* day: the day since the start of the trail when the photograph was taken (0, 5, 10, 15, 20, 25 or 30)
+* lum_mean: the mean value of the luminance measured from all ROI (region of interest) pixels
+* lum_dev: the standard deviation of the luminance measured from all ROI pixels
+* rnl_x_mean: the mean value of the x colour channel (green-red variation) measured from all ROI pixels
+* rnl_x_dev: the standard deviation of the x colour channel (green-red variation) measured from all ROI pixels
+* rnl_y_mean: the mean value of the y colour channel (yellow-blue variation) measured from all ROI pixels
+* rnl_y_dev: the standard deviation of the y colour channel (yellow-blue variation) measured from all ROI pixels
+* rnl_saturation_mean: the mean value of the saturation channel measured from all ROI pixels
+* rnl_saturation_dev: the standard deviation of the saturation channel measured from all ROI pixels
+* LAB_CIE L_Mean: the values of Lightness from the L*a*b colour space
+* LAB_CIE A_Mean: the values of the green-red colour component from the L*a*b colour space
+* LAB_CIE B_Mean: the values of the yellow-blue colour component from the L*a*b colour space
+* size: the size of the prawn individual
 
 *seaweed_data_rnl*
 
-seaweed: the seaweed species (red dulse - d, pink harpoon weed - hw, green sea lettuce - sl, brown wireweed - sm)
-id: the identification code of each seaweed sample
-lum_mean: the mean value of the luminance measured from all ROI (region of interest) pixels
-lum_dev: the standard deviation of the luminance measured from all ROI pixels
-rnl_x_mean: the mean value of the x colour channel (green-red variation) measured from all ROI pixels
-rnl_x_dev: the standard deviation of the x colour channel (green-red variation) measured from all ROI pixels
-rnl_y_mean: the mean value of the y colour channel (yellow-blue variation) measured from all ROI pixels
-rnl_y_dev: the standard deviation of the y colour channel (yellow-blue variation) measured from all ROI pixels
-rnl_saturation_mean: the mean value of the saturation channel measured from all ROI pixels
-rnl_saturation_dev: the standard deviation of the saturation channel measured from all ROI pixels 
-day: dummy variable set at day 30 to add a polygon representing the colour variation of the seaweeds to Figure 4
+* seaweed: the seaweed species (red dulse - d, pink harpoon weed - hw, green sea lettuce - sl, brown wireweed - sm)
+* id: the identification code of each seaweed sample
+* lum_mean: the mean value of the luminance measured from all ROI (region of interest) pixels
+* lum_dev: the standard deviation of the luminance measured from all ROI pixels
+* rnl_x_mean: the mean value of the x colour channel (green-red variation) measured from all ROI pixels
+* rnl_x_dev: the standard deviation of the x colour channel (green-red variation) measured from all ROI pixels
+* rnl_y_mean: the mean value of the y colour channel (yellow-blue variation) measured from all ROI pixels
+* rnl_y_dev: the standard deviation of the y colour channel (yellow-blue variation) measured from all ROI pixels
+* rnl_saturation_mean: the mean value of the saturation channel measured from all ROI pixels
+* rnl_saturation_dev: the standard deviation of the saturation channel measured from all ROI pixels 
+* day: dummy variable set at day 30 to add a polygon representing the colour variation of the seaweeds to Figure 4
 
 ### SCRIPTS
 
